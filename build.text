@@ -1,0 +1,9 @@
+mkdir -p build pcaps logs
+sudo python ../../utils/run_exercise.py -t topology.json -b simple_switch_grpc
+Reading topology file.
+Building mininet topology.
+Switch port mapping:
+s1:  1:h1	2:s2	3:s3	
+s2:  1:h2	2:s1	
+s3:  1:h3	2:s1	
+../../utils/Makefile:27: recipe for target 'run' failed
